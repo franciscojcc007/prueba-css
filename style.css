@@ -1,8 +1,47 @@
-*{
+
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-size: 16px;
 }
+
+/*********** Uso de imágenes en el encabezado ************/
+header {
+  background-image: url("./img/spices-4185324_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60rem;
+  width: 100%;
+  position: relative;
+  padding: 5rem 0;
+}
+
+header::before {
+  position: absolute;
+  content: "";  
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .7;
+}
+
+.contenido-header {
+  position: relative;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+
+
+}
+
+
 /************ uso de @keyframes y animation **********/
 /* #caja{
   width: 100px;
@@ -25,7 +64,7 @@
 
 
 /******* uso de  transform,:hover *********/
-.div{
+/* .div{
   border-radius: 10px;
   width: 150px;
   height: 45px;
@@ -65,11 +104,11 @@
 #caja2:hover spam{
   font-size: 2.4rem;
   color: rgb(248, 64, 64);
-}
+} */
 
 
 /************* uso de scroll ***********/
-h3{
+/* .titulo-scroll{
   font-size: 2rem;
   margin: 5px 0 0 10px;
   text-align: center;
@@ -85,4 +124,4 @@ h3{
   overflow-y: scroll;
   background-color: rgba(0, 255, 255, 0.103);
   scroll-behavior: smooth;
-}
+} */
