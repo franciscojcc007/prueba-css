@@ -130,7 +130,7 @@ h1 {
   background-repeat: space;
   background-repeat: round; 
 } */
-
+/******* Animación de entrada con opacidad y escalado ******/
 @keyframes show {
   from{
     opacity: 0;
