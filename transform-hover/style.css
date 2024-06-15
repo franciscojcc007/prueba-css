@@ -1,0 +1,46 @@
+
+/******* uso de  transform:hover *********/
+.div{
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  background-color: rgb(218, 252, 242);
+  padding: 15px;
+  margin: 10px 10px 0 20px;
+  font-size: 1.5rem;
+  border: 1px solid rgb(5, 56, 104);
+  text-transform: capitalize;
+  color: rgba(252, 61, 61, 0.726);
+}
+.circulo{
+  background-color: rgba(245, 211, 21, 0.945);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  margin: -18px 0px 1px 28px;
+  z-index: 3;
+}
+#caja2{
+  transform: rotate(18deg);
+  position: absolute;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+#caja2 spam{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#caja2:hover{
+  width: 175px;
+  height: 55px;
+  font-size: 2rem;
+}
+#caja2:hover spam{
+  font-size: 2.4rem;
+  color: rgb(248, 64, 64);
+}
+
+
+
