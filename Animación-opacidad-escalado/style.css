@@ -1,0 +1,31 @@
+/******* Animación de entrada con opacidad y escalado ******/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes show {
+  from{
+    opacity: 0;
+    transform: scale(0.25) ;
+  }
+  to{
+    opacity: 1;
+    transform: scale(0.5);
+  }
+}
+img{
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+
+  display: block;
+  width: 100%;
+
+}
