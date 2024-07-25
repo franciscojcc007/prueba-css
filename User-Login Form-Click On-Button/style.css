@@ -76,7 +76,7 @@ body{
 
 .login-form .login-container img{
     width: 40%;
-    border-radius: 50%;
+    border-radius: 40%;
     
 }
 
@@ -88,6 +88,7 @@ body{
     color: #ff4367;
     cursor: pointer;
 }
+
 
 .login-form .container label{
     display: block;
